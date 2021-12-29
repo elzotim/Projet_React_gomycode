@@ -1,0 +1,23 @@
+.le__boutton {
+    display: block;
+    margin: auto;
+    opacity: 1;
+    background: linear-gradient(180deg, bg_blue_dark 0%, $color-primary 100%);
+    color: white;
+    border-radius: 200px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    border: none;
+    width: max-content;
+}
+.le__boutton:hover {
+    @include button-hover;
+}
+.button {
+    margin:  auto ;
+    padding: 11px 60px;
+}
+.buttonMenu {
+    padding: 18px 32px;
+    
+}

@@ -1,0 +1,26 @@
+ .grandmenu{
+     .centrer_Element{
+         @include centrer_element;
+         margin-bottom: 10rem;
+     }
+     & img{
+       border-radius: 20%;
+border: 1px solid green;
+box-shadow: 2px 2px 2px black;
+     }
+      & #Menu{
+    @include display;
+    width: 80%;
+    margin: 0 auto;
+
+}}
+.centrer_element{
+    @include centrer_element;
+    border-radius: 10px  ;
+    border: 1px solid $color-primary;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px;
+
+}

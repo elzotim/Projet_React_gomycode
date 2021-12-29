@@ -1,0 +1,32 @@
+.temoignage {
+    background-color: $bg_blue_normal;
+    & .container {
+        margin: auto;
+        max-width: $Max_Width;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        padding: 5rem 2rem;
+        & .ItemTemoignage {
+            flex: 25%;
+            background-color: white;
+            padding: 2rem;
+            margin:1rem;
+            & .Title {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                & img {
+                    border-radius: 5rem;
+                    width: 6.4rem;
+                }
+                
+            }
+            & .Description{
+                margin-top:1rem
+            }
+        }
+    }
+}

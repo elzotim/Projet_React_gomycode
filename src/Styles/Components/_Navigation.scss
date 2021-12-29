@@ -1,0 +1,31 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    & li {
+        & a {
+            padding: 2rem 1rem;
+            color: white;
+        }
+    }
+}
+.active  {
+   &::after {
+       content:"👑👑👑";
+       width: auto;
+       position: absolute;
+       background-color: $color-secondary;
+       height: 6px;
+      transform: translateX(-70%);
+      top: 4rem;
+   }    
+
+       
+    }
+    .lienAccueil{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+    }
+
